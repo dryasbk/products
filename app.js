@@ -22,7 +22,7 @@ app.use(cors());
 
 app.use('/products', productRoute);
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3030;
 app.listen(port, ()=>{
     console.log("It is working ...");
 })
